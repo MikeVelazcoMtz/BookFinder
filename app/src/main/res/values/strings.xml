@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookFinder</string>
+    <string name="search">Search</string>
+    <string name="no_items">No items were found</string>
+    <string name="dialog_no_internet_title">No internet access</string>
+    <string name="dialog_no_internet_content">Do you want to continue?</string>
+    <string name="dialog_no_internet_positive">Continue</string>
+    <string name="dialog_no_internet_negative">Exit app</string>
+</resources>

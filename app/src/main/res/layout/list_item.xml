@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="144dp"
+    android:padding="12dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/book_img"
+        android:layout_toLeftOf="@+id/book_img"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        tools:text="Que facil es programar en android"/>
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/book_img"
+        android:layout_toLeftOf="@+id/book_img"
+        android:fontFamily="serif"
+        android:textSize="12sp"
+        tools:text="Cualquier texto increiblemente largo y muchisi"/>
+    <TextView
+        android:id="@+id/authors_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_title"
+        android:text="Autores:"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/authors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub_title"
+        android:layout_toEndOf="@+id/authors_lbl"
+        android:layout_toRightOf="@+id/authors_lbl"
+        android:layout_toLeftOf="@+id/book_img"
+        android:layout_toStartOf="@+id/book_img"
+        android:layout_alignParentBottom="true"
+        tools:text="Ejemplo increiblemente largo debido a que"/>
+    <ImageView
+        android:id="@+id/book_img"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        tools:src="@drawable/content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:contentDescription="Book Image"/>
+</RelativeLayout>
